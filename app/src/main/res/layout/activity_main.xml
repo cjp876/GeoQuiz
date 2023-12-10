@@ -27,25 +27,13 @@
         android:id="@+id/false_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="False"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.64"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.569" />
+        android:text="False" />
 
     <Button
         android:id="@+id/true_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="True"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.346"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.569" />
+        android:text="True" />
 
     </LinearLayout>
 

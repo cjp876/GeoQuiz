@@ -15,22 +15,22 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-    }
 
-    /*trueButton.setOnClickListener{view: view ->
-        Toast.makeText(
-            this,
-            R.string.true_button,
-            Toast.LENGTH_SHORT)
-            .show()
-    }
+        trueButton.setOnClickListener{
+            Toast.makeText(
+                this,
+                R.string.true_button,
+                Toast.LENGTH_SHORT)
+                .show()
+        }
 
-    falseButton.setOnClickListener{view: view ->
-        Toast.makeText(
-            this,
-            R.string.false_button,
-            Toast.LENGTH_SHORT)
-            .show()
-    }*/
+        falseButton.setOnClickListener{
+            Toast.makeText(
+                this,
+                R.string.false_button,
+                Toast.LENGTH_SHORT)
+                .show()
+        }
+    }
 
 }
