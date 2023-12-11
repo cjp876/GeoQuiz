@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         trueButton = findViewById(R.id.true_button)
         falseButton = findViewById(R.id.false_button)
 
-      /*  trueButton.setOnClickListener{
+        trueButton.setOnClickListener{
             Toast.makeText(
                 this,
                 R.string.true_button,
@@ -36,9 +36,9 @@ class MainActivity : AppCompatActivity() {
                 Toast.LENGTH_SHORT)
                 .show()
         }
-        */
 
-        trueButton.setOnClickListener{
+
+        /*trueButton.setOnClickListener{
             val snackBar = Snackbar.make(
                 it,
                 "Correct",
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             snackBar.setTextColor(Color.BLACK)
             snackBar.setBackgroundTint(Color.RED)
             snackBar.show()
-        }
+        }*/
 
 
 
